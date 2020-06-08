@@ -2,17 +2,10 @@ var data = document.getElementById("data");
 var btn = document.getElementById("btn");
 var table = document.getElementById("data");
 
-
-
 btn.style.fontSize= "16px";
 btn.style.margin= "2rem 3rem";
 btn.style.float= "right";
 table.style.cssText = "   width: 800px;float: left;margin-right: 200px;display: none;";
-
-
-
-
-
 
 
 
@@ -33,7 +26,7 @@ let add = () => {
     cell2.innerHTML = '<input id="payment" placeholder="Payment">';
     cell3.innerHTML = '<button id="del1" onclick= "del()">Del</button>';
     }
-   u = count++;
+  count++;
     
 }
 
